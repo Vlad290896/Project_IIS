@@ -1,0 +1,414 @@
+
+
+ LOG file opened at 03/25/23 20:42:19
+
+Total Number of Files=1
+
+Data File: eq5d5l_gen_health_state.csv
+
+Log File: PATIENTS_GEN_HEALTH_STATE_14884_61212.log
+
+
+
+ LOG file opened at 03/25/23 20:42:19
+
+Bad File: PATIENTS_GEN_HEALTH_STATE_14884_61212.bad
+
+Field Definitions for table PATIENTS_GEN_HEALTH_STATE
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SUBJECT                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    SIT                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    VIS                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    UNV                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    TIME_POINT                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    MOBILITY                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    SELF_CARE                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    USUAL_ACTIVITY                  CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PAIN_DISCOMFORT                 CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ANXIETY                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    HEALTH_STATE                    CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    QSCAT                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column HEALTH_STATE in row 4 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 14 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 16 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 23 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 29 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 42 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 112 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 121 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 127 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 137 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 174 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 176 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 198 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 207 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 220 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 229 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 249 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 257 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 258 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 270 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 273 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 305 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 307 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 318 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 319 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 371 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 374 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 376 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 388 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 412 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 430 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 473 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 484 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 488 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 500 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 517 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 533 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 551 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 557 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 597 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 636 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 644 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 657 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 806 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 827 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 881 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 882 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 914 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 944 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 955 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 962 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 972 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1007 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1009 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1043 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1044 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1065 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1150 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1168 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1170 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1178 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1198 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1207 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1228 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1252 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1322 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1338 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1351 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1355 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1403 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1432 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1452 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1474 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1510 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+
+
+ LOG file opened at 03/25/23 20:42:36
+
+Total Number of Files=1
+
+Data File: eq5d5l_gen_health_state.csv
+
+Log File: PATIENTS_GEN_HEALTH_STATE_14884_61212.log
+
+
+
+ LOG file opened at 03/25/23 20:42:36
+
+Bad File: PATIENTS_GEN_HEALTH_STATE_14884_61212.bad
+
+Field Definitions for table PATIENTS_GEN_HEALTH_STATE
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SUBJECT                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    SIT                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    VIS                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    UNV                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    TIME_POINT                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    MOBILITY                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    SELF_CARE                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    USUAL_ACTIVITY                  CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PAIN_DISCOMFORT                 CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ANXIETY                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    HEALTH_STATE                    CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    QSCAT                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column HEALTH_STATE in row 4 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 14 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 16 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 23 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 29 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 42 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 112 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 121 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 127 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 137 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 174 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 176 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 198 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 207 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 220 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 229 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 249 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 257 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 258 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 270 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 273 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 305 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 307 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 318 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 319 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 371 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 374 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 376 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 388 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 412 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 430 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 473 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 484 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 488 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 500 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 517 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 533 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 551 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 557 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 597 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 636 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 644 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 657 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 806 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 827 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 881 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 882 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 914 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 944 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 955 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 962 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 972 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1007 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1009 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1043 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1044 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1065 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1150 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1168 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1170 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1178 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1198 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1207 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1228 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1252 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1322 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1338 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1351 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1355 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1403 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1432 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1452 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1474 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column
+error processing column HEALTH_STATE in row 1510 for datafile V:\Pentru_Facultate\Master\Anul_2\Semestrul_2\Integrare_Informationala\Laborator\Project\Project_Files\Log_Files_Gen_Health_State_Table\eq5d5l_gen_health_state.csv
+ORA-01438: value larger than specified precision allowed for this column

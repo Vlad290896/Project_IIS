@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<countries>
+	<country>
+	<id>1</id>
+<countryName>Australia</countryName>
+<subject>1001004</subject>
+     </country>
+
+	<country>
+	<id>2</id>
+<countryName>Australia</countryName>
+<subject>1001006</subject>
+     </country>
+
+	<country>
+	<id>3</id>
+<countryName>Australia</countryName>
+<subject>1001007</subject>
+     </country>
+
+	<country>
+	<id>4</id>
+<countryName>Australia</countryName>
+<subject>1001008</subject>
+     </country>
+
+	<country>
+	<id>5</id>
+<countryName>Australia</countryName>
+<subject>1001022</subject>
+     </country>
+
+	<country>
+	<id>6</id>
+<countryName>England</countryName>
+<subject>100106</subject>
+     </country>
+	
+	<country>
+	<id>7</id>
+<countryName>England</countryName>
+<subject>1001023</subject>
+     </country>
+
+	<country>
+	<id>8</id>
+<countryName>England</countryName>
+<subject>1001028</subject>
+     </country>
+
+	<country>
+	<id>9</id>
+<countryName>Germany</countryName>
+<subject>3103118</subject>
+     </country>
+
+	<country>
+	<id>10</id>
+<countryName>Germany</countryName>
+<subject>3103119</subject>
+     </country>
+
+	<country>
+	<id>11</id>
+<countryName>Germany</countryName>
+<subject>4204204</subject>
+     </country>
+
+	<country>
+	<id>12</id>
+<countryName>Sweden</countryName>
+<subject>3403408</subject>
+     </country>
+
+	<country>
+	<id>13</id>
+<countryName>Sweden</countryName>
+<subject>2002045</subject>
+     </country>
+
+	<country>
+	<id>14</id>
+<countryName>Sweden</countryName>
+<subject>2002056</subject>
+     </country>
+
+	<country>
+	<id>15</id>
+<countryName>Romania</countryName>
+<subject>2102104</subject>
+     </country>
+
+	<country>
+	<id>16</id>
+<countryName>Romania</countryName>
+<subject>2402408</subject>
+     </country>
+
+	<country>
+	<id>17</id>
+<countryName>Romania</countryName>
+<subject>2002056</subject>
+     </country>
+
+	<country>
+	<id>18</id>
+<countryName>France</countryName>
+<subject>2502506</subject>
+     </country>
+
+	<country>
+	<id>19</id>
+<countryName>France</countryName>
+<subject>2802802</subject>
+     </country>
+
+	<country>
+	<id>20</id>
+<countryName>France</countryName>
+<subject>3203203</subject>
+     </country>
+
+	<country>
+	<id>21</id>
+<countryName>France</countryName>
+<subject>3503508</subject>
+     </country>
+
+	<country>
+	<id>22</id>
+<countryName>Italy</countryName>
+<subject>3603605</subject>
+     </country>
+
+	<country>
+	<id>23</id>
+<countryName>Italy</countryName>
+<subject>4004001</subject>
+     </country>
+
+	<country>
+	<id>24</id>
+<countryName>Italy</countryName>
+<subject>3903905</subject>
+     </country>
+
+	<country>
+	<id>25</id>
+<countryName>Spain</countryName>
+<subject>4304317</subject>
+     </country>
+
+	<country>
+	<id>26</id>
+<countryName>Spain</countryName>
+<subject>2902903</subject>
+     </country>
+
+	<country>
+	<id>27</id>
+<countryName>Spain</countryName>
+<subject>2202202</subject>
+     </country>
+
+	<country>
+	<id>28</id>
+<countryName>Poland</countryName>
+<subject>1301308</subject>
+     </country>
+
+	<country>
+	<id>29</id>
+<countryName>Poland</countryName>
+<subject>2002006</subject>
+     </country>
+
+	<country>
+	<id>30</id>
+<countryName>Poland</countryName>
+<subject>2402412</subject>
+     </country>
+
+	<country>
+	<id>31</id>
+<countryName>Poland</countryName>
+<subject>2602610</subject>
+     </country>
+
+	<country>
+	<id>32</id>
+<countryName>Netherlands</countryName>
+<subject>3803802</subject>
+     </country>
+
+	<country>
+	<id>33</id>
+<countryName>Netherlands</countryName>
+<subject>2702715</subject>
+     </country>
+
+	<country>
+	<id>34</id>
+<countryName>Netherlands</countryName>
+<subject>3203210</subject>
+     </country>
+
+	<country>
+	<id>35</id>
+<countryName>Netherlands</countryName>
+<subject>1501502</subject>
+     </country>
+
+</countries>
