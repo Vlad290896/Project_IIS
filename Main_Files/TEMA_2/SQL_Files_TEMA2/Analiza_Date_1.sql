@@ -46,9 +46,11 @@ SELECT
 	MTS.MTSRES1 as gen_opinion
 FROM
 	patients_view PV
-	INNER JOIN countries_view CV ON PV.idpacient = CV.subject
-	INNER JOIN mts_to_view MTS ON PV.idpacient = MTS.subject
-WHERE MTS.MTSRES1 LIKE '%agree%';
+	INNER JOIN countries_view CV ON CV.subject = PV.idpacient
+	INNER JOIN mts_to_view MTS ON MTS.subject = PV.idpacient
+WHERE MTS.MTSRES1 NOT LIKE '%agree%';
+
+select * from OLAP_DIM_SUBJ_REGION_OPINION;
 
 -------------------------------------------------------------
 
@@ -157,12 +159,10 @@ ORDER BY C.countryName, d4.idpacient;
 
 SELECT PV.idpacient, CV.countryName,
 SUM(P.health_state) AS final_health_state,
- RANK() OVER(PARTITION BY PV.idpacient
- ORDER BY SUM(P.health_state) DESC) as Poz
+RANK() OVER(ORDER BY SUM(P.health_state) DESC) AS POZ
 FROM patients_view PV
  INNER JOIN patients_gen_health_state P ON P.subject = PV.idpacient
- INNER JOIN countries_view CV ON CV.id = PV.idpacient
- ---INNER JOIN regions_details_view RDV ON RDV.region_id = RV.region_id
+ INNER JOIN countries_view CV ON CV.subject = PV.idpacient
 GROUP BY PV.idpacient, CV.countryName
 ORDER BY 1,2;
 
