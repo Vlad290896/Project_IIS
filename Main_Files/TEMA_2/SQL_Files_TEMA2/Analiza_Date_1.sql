@@ -163,8 +163,7 @@ RANK() OVER(ORDER BY SUM(P.health_state) DESC) AS POZ
 FROM patients_view PV
  INNER JOIN patients_gen_health_state P ON P.subject = PV.idpacient
  INNER JOIN countries_view CV ON CV.subject = PV.idpacient
-GROUP BY PV.idpacient, CV.countryName
-ORDER BY 1,2;
+GROUP BY PV.idpacient, CV.countryName;
 
 ---------------------------------------------------------------------------
 
