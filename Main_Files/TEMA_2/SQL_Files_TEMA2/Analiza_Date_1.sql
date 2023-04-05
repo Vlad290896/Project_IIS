@@ -19,11 +19,12 @@ SELECT * FROM OLAP_FINAL_HEALTH_STATE;
 
 DROP VIEW OLAP_DIM_SUBJ_SITE_COUNTRY;
 CREATE OR REPLACE VIEW OLAP_DIM_SUBJ_SITE_COUNTRY AS
-SELECT 
+SELECT
     PV.Subject as subject,
     CV.countryName as countryName
 FROM patients_view PV 
-    INNER JOIN countries_view CV ON PV.idpacient = CV.subject;
+    INNER JOIN countries_view CV ON CV.subject = PV.idpacient;
+    
 SELECT * FROM OLAP_DIM_SUBJ_SITE_COUNTRY;
 
 ------------------------------------------------------------
@@ -79,7 +80,7 @@ select * from OLAP_DIM_SUBJ_SITE_COUNTRY;
 
 ----------------------------------------------------------------------------
 
-DROP VIEW OLAP_VIEW_FHEALTH_STATE_AGE_VISITS;
+DROP VIEW OLAP_VIEW_FHEALTH_STATE_AGE_GENDER;
 CREATE OR REPLACE VIEW OLAP_VIEW_FHEALTH_STATE_AGE_GENDER AS
 SELECT 
 CASE
@@ -100,7 +101,7 @@ FROM OLAP_DIM_SUBJ_AGE_VISITS D2
 GROUP BY ROLLUP (d2.VIS, d2.age, d2.Subject)
 ORDER BY d2.VIS, d2.age, d2.Subject;
 
-select *  FROM OLAP_DIM_SUBJ_AGE_VISITS; 
+select *  FROM OLAP_VIEW_FHEALTH_STATE_AGE_GENDER; 
 
 ---------------------------------------------------------------------------
 DROP VIEW OLAP_DIM_SUBJ_AGE_GENDER;
@@ -134,26 +135,34 @@ CASE
     ELSE to_char(D3.id) END AS Subject_Identifier,    
   SUM(NVL(f.Final_Health_State, 0)) as Final_Health_State   
 FROM OLAP_DIM_SUBJ_AGE_GENDER D3
-    INNER JOIN OLAP_FACT_FINAL_HEALTH_STATE F ON D3.id = F.subject
+    INNER JOIN OLAP_FACT_FINAL_HEALTH_STATE F ON D3.idpacient = F.subject
 GROUP BY ROLLUP (d3.countryName, d3.age, d3.gender, d3.id)
 ORDER BY d3.countryName, d3.age, d3.gender, d3.id;
+
+SELECT * FROM OLAP_FACT_FINAL_HEALTH_STATE;
+SELECT * FROM OLAP_DIM_SUBJ_AGE_GENDER;
 
 ---------------------------------------------------------------------------
 DROP VIEW OLAP_VIEW_FHEALTH_STATE_REG_OPINION;
 CREATE OR REPLACE VIEW OLAP_VIEW_FHEALTH_STATE_REG_OPINION AS
-SELECT 
+SELECT
 CASE
     WHEN GROUPING(C.countryName) = 1 THEN '{Total General}'
     ELSE C.countryName END AS countryName,
-  CASE 
+CASE
     WHEN GROUPING(C.countryName) = 1 THEN ' '
-    WHEN GROUPING(D4.idpacient) = 1 THEN 'subtotal regiune' || D4.idpacient
-    ELSE to_char(D4.idpacient) END AS Subject_Identifier   
+    WHEN GROUPING(D4.idpacient) = 1 THEN 'subtotal regiune' || to_char(D4.idpacient)
+    ELSE to_char(D4.idpacient) END AS Subject_Identifier,
+    COUNT(*) AS Total_Patients
 FROM OLAP_DIM_SUBJ_REGION_OPINION D4
-    INNER JOIN OLAP_DIM_SUBJ_SITE_COUNTRY C ON d4.idpacient = C.subject
+    INNER JOIN OLAP_DIM_SUBJ_SITE_COUNTRY C ON D4.idpacient = C.subject
     INNER JOIN olap_dim_subj_region_opinion O ON C.subject = O.idpacient
-GROUP BY ROLLUP (C.countryName, d4.idpacient)
-ORDER BY C.countryName, d4.idpacient;
+GROUP BY
+    ROLLUP(C.countryName, D4.idpacient)
+ORDER BY
+    C.countryName, D4.idpacient;
+
+select * from olap_dim_subj_region_opinion;
 
 ---------------------------------------------------------------------------
 
@@ -224,7 +233,9 @@ FROM patients_gen_health_state P
     INNER JOIN patients_view PV ON P.subject = PV.idpacient
     INNER JOIN countries_view CV ON PV.idpacient = CV.subject
 GROUP BY CUBE(P.subject, P.sit, CV.countryName)
-ORDER BY 1,2;
+ORDER BY 1,2
+FETCH NEXT 31 ROWS ONLY;
+
 
 
 
