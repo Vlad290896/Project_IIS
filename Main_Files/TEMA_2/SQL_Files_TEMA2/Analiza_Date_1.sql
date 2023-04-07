@@ -51,11 +51,15 @@ SELECT
 FROM
 	countries_view CV
 	INNER JOIN mts_to_view MTS ON CV.subject = MTS.subject
-WHERE MTS.MTSRES1 LIKE 'AGREE%';
+WHERE MTS.MTSRES1 LIKE 'AGREE';
 
 select * from OLAP_DIM_SUBJ_COUNTRY_OPINION;
-SELECT COUNT(MTSRES1) AS OPINIONS FROM mts_to_view WHERE MTSRES1 LIKE 'AGREE%';
-SELECT subject, MTSRES1 AS OPINIONS FROM mts_to_view WHERE MTSRES1 LIKE 'AGREE%';
+SELECT COUNT(MTSRES1) AS OPINIONS FROM mts_to_view WHERE MTSRES1 LIKE 'AGREE';
+SELECT subject, MTSRES1 AS OPINIONS 
+FROM
+    mts_to_view 
+WHERE
+    MTSRES1 LIKE 'AGREE';
 
 -------------------------------------------------------------
 
