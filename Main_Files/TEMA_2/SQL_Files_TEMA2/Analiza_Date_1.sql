@@ -25,6 +25,7 @@ SELECT
     CV.countryName as countryName
 FROM patients_view PV 
     INNER JOIN countries_view CV ON PV.subject = CV.subject;
+    
 SELECT * FROM OLAP_DIM_SUBJ_SIT_COUNTRY;
 
 
@@ -54,8 +55,7 @@ WHERE MTS.MTSRES1 LIKE 'AGREE%';
 
 select * from OLAP_DIM_SUBJ_COUNTRY_OPINION;
 SELECT COUNT(MTSRES1) AS OPINIONS FROM mts_to_view WHERE MTSRES1 LIKE 'AGREE%';
-
-
+SELECT subject, MTSRES1 AS OPINIONS FROM mts_to_view WHERE MTSRES1 LIKE 'AGREE%';
 
 -------------------------------------------------------------
 
@@ -239,7 +239,7 @@ FROM patients_gen_health_state P
     INNER JOIN countries_view CV ON PV.subject = CV.subject
 GROUP BY CUBE(P.subject, P.sit, CV.countryName)
 ORDER BY 1,2
-FETCH NEXT 97 ROWS ONLY;
+FETCH NEXT 109 ROWS ONLY;
 
 
 
