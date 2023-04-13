@@ -1,0 +1,10 @@
+SELECT Symptoms, SUM(Final_Health_State) as Total_Health_State
+FROM (
+    SELECT PV.Symptoms, SUM(P.Health_State) as Final_Health_State
+    FROM patients_gen_health_state P 
+    INNER JOIN patients_view PV ON P.subject = PV.subject
+    GROUP BY PV.Symptoms, P.Subject
+) subquery
+GROUP BY Symptoms
+ORDER BY Symptoms, Total_Health_State DESC
+FETCH NEXT 3 ROWS ONLY;
